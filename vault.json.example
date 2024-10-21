@@ -1,0 +1,6 @@
+{
+    "default": {
+        "OpenAI": "",
+        "AnthropicAI": ""
+    }
+}

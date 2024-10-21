@@ -13,8 +13,12 @@ git clone git@github.com:Smyth-ai/smyth-runtime-local.git
 cp vault.json.example vault.json          # add API keys to vault.json
 
 ./bin/smyth-runtime-macos \
- --agent=agents/llm.smyth \
- --vault=vault.json \
+
+
+/Users/anthonybudd/Development/SmythOS/smyth-runtime/distributions/cli/dist/smyth-runtime-macos \
+ --agent=/Users/anthonybudd/Development/SmythOS/smyth-runtime-local/agents/llm.smyth \
+ --vault=/Users/anthonybudd/Development/SmythOS/smyth-runtime-local/vault.json \
+ --vault-key=/Users/anthonybudd/Development/SmythOS/smyth-runtime-local/smyth.pem \
  --method=POST \
  --path="/api/ask" \
  --body='{"question": "What is the capital of France?"}'
@@ -29,7 +33,8 @@ cp vault.json.example vault.json          # add API keys to vault.json
 | Argument         | Description                     |
 |------------------|---------------------------------|
 | `--agent`        | Path to `.smyth` agent file     |  
-| `--vault`        | Path to the vault file          | 
+| `--vault`        | Path to the vault file          |
+| `--vault-key`    | Path to the pem file to decrypt `--vault`  |
 | `--method`       | The HTTP method to use          | 
 | `--path`         | Path to the API Endpoint        | 
 | `--query`        | Query parameters as JSON        | 

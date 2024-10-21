@@ -13,8 +13,8 @@ git clone git@github.com:Smyth-ai/smyth-runtime-local.git
 cp vault.json.example vault.json          # add API keys to vault.json
 
 ./bin/smyth-runtime-macos \
- --agent=/Users/anthonybudd/Development/SmythOS/smyth-runtime-local/agents/llm.smyth \
- --vault=/Users/anthonybudd/Development/SmythOS/smyth-runtime-local/vault.json \
+ --agent=agents/llm.smyth \
+ --vault=vault.json \
  --method=POST \
  --path="/api/ask" \
  --body='{"question": "What is the capital of France?"}'

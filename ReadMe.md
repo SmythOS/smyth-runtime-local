@@ -10,8 +10,7 @@ Smyth Runtime Local is a local version of the Smyth Runtime. You can use the exe
 To get started, clone the repository, copy the vault template and add your API keys to the vault.json file. The use the binary for your platform to run the agent.
 ```
 git clone git@github.com:Smyth-ai/smyth-runtime-local.git
-cp vault.json.example vault.json
-# add API keys to vault.json
+cp vault.json.example vault.json          # add API keys to vault.json
 
 ./bin/smyth-runtime-macos \
  --agent=agents/llm.smyth \

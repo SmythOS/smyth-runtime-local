@@ -14,7 +14,7 @@ cp vault.json.example vault.json
 # add API keys to vault.json
 
 ./bin/smyth-runtime-macos \
- --agent=agents/openai.smyth \
+ --agent=agents/llm.smyth \
  --vault=vault.json \
  --method=POST \
  --path="/api/ask" \
@@ -29,7 +29,7 @@ cp vault.json.example vault.json
 ### CLI Arguments
 | Argument         | Description                     |
 |------------------|---------------------------------|
-| `--agent`        | Path to `.smyth` agent file     | 
+| `--agent`        | Path to `.smyth` agent file     |  
 | `--vault`        | Path to the vault file          | 
 | `--method`       | The HTTP method to use          | 
 | `--path`         | Path to the API Endpoint        | 

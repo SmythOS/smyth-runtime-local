@@ -1,0 +1,58 @@
+{
+  "components": {
+    "CM24QYMK9FH": {
+      "id": "CM24QYMK9FH",
+      "name": "APIEndpoint",
+      "ctx": {
+        "active": false,
+        "name": "APIEndpoint"
+      }
+    },
+    "CM24QZ34J7VT": {
+      "id": "CM24QZ34J7VT",
+      "name": "PromptGenerator",
+      "ctx": {
+        "active": false,
+        "name": "PromptGenerator"
+      }
+    },
+    "CM24QZHJQYH9": {
+      "id": "CM24QZHJQYH9",
+      "name": "APIOutput",
+      "ctx": {
+        "active": false,
+        "name": "APIOutput"
+      }
+    },
+    "CM2AUHFHNZNC": {
+      "id": "CM2AUHFHNZNC",
+      "name": "APIEndpoint",
+      "ctx": {
+        "active": false,
+        "name": "APIEndpoint"
+      }
+    }
+  },
+  "connections": [
+    {
+      "sourceId": "CM24QZ34J7VT",
+      "sourceIndex": 0,
+      "targetId": "CM24QZHJQYH9",
+      "targetIndex": 0
+    },
+    {
+      "sourceId": "CM24QYMK9FH",
+      "sourceIndex": 3,
+      "targetId": "CM24QZ34J7VT",
+      "targetIndex": 0
+    },
+    {
+      "sourceId": "CM2AUHFHNZNC",
+      "sourceIndex": 3,
+      "targetId": "CM24QZ34J7VT",
+      "targetIndex": 0
+    }
+  ],
+  "timestamp": 1729545369910,
+  "step": 0
+}

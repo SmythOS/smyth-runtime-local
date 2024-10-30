@@ -1,0 +1,59 @@
+SOFTWARE END USER LICENSE AGREEMENT FOR SMYTHOS RUNTIME ENVIRONMENT
+
+This Software End User License Agreement (the "Runtime EULA") is a legal agreement between INK Content, Inc., a Delaware corporation ("INK"), also known by its product SmythOS, and you (either an individual or an entity, "Customer" or "You") for the use of the SmythOS Runtime Environment software ("Runtime").
+
+This EULA incorporates by reference the SmythOS Terms of Service available at https://smythos.com/legal/terms-of-service/ ("Terms of Service"). By using the Runtime, you agree to be bound by both this Runtime EULA and the Terms of Service. In the event of any conflict between this Runtime EULA and the Terms of Service regarding the Runtime, this Runtime EULA shall control.
+
+LICENSE GRANT
+INK grants you a worldwide, non-exclusive, non-transferable, royalty-free license to install and use the Runtime at no cost and without any purchase requirement.
+You may use the Runtime for both personal and commercial purposes.
+You may only use the Runtime to execute agents created through SmythOS.com.
+
+RESTRICTIONS
+You shall not:
+a) Provide hosting services to third parties that would compete with SmythOS hosted agent cloud
+b) Reverse engineer, decompile, or disassemble the Runtime
+c) Sell, lease, license, distribute, or otherwise commercially exploit the Runtime
+d) Remove or alter any proprietary notices or marks on the Runtime
+e) Modify, translate, or create derivative works of the Runtime
+f) Use the Runtime for any illegal or unauthorized purpose
+
+LOCAL EXECUTION AND DATA
+You are solely responsible for:
+a) Security of your local Runtime installation
+b) Compliance with applicable laws regarding local data processing
+c) Maintaining appropriate backup and security measures
+d) All data processed through your local Runtime instance
+
+UPDATES AND MAINTENANCE
+INK may provide Runtime updates at its discretion.
+You are responsible for maintaining compatibility with SmythOS.com.
+INK has no obligation to support outdated Runtime versions.
+
+THIRD-PARTY COMPONENTS
+The Runtime may include third-party software components.
+Such components are subject to their respective license terms.
+INK makes no warranties regarding third-party components.
+
+TERM AND TERMINATION
+This Runtime EULA remains effective until terminated.
+INK may terminate this Runtime EULA if you fail to comply with its terms.
+Upon termination, you must cease using and destroy all copies of the Runtime.
+
+DISCLAIMER OF WARRANTIES
+The Runtime is provided "AS IS" without warranty of any kind.
+INK disclaims all warranties regarding the Runtime's operation, accuracy, or fitness for purpose.
+
+LIMITATION OF LIABILITY
+To the maximum extent permitted by law, INK shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages arising from the use of the Runtime.
+This limitation applies regardless of the cause of action, whether in contract, tort, or otherwise.
+
+SURVIVAL
+Sections 2, 7, 8, and 9 shall survive any termination of this Runtime EULA.
+
+GOVERNING LAW
+This Runtime EULA shall be governed by the same choice of law and venue provisions as specified in the Terms of Service.
+
+BY DOWNLOADING, INSTALLING OR USING THE RUNTIME, YOU ACKNOWLEDGE THAT YOU HAVE READ AND AGREE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS RUNTIME EULA AND THE TERMS OF SERVICE.
+
+Last updated: October 30, 2024

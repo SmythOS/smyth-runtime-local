@@ -14,13 +14,6 @@ To get started, clone the repository, copy the vault template and add your API k
 git clone git@github.com:Smyth-ai/smyth-runtime-local.git
 cp vault.json.example vault.json          # add API keys to vault.json
 
-./bin/smyth-runtime-macos \
- --agent agents/llm.smyth \
- --vault vault.json \
- --method POST \
- --path "/api/ask" \
- --body '{"question": "What is the capital of France?"}'
-
 ./bin/smyth-runtime-linux \
  --agent agents/llm.smyth \
  --vault vault.json \

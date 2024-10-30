@@ -25,6 +25,16 @@ cp vault.json.example vault.json          # add API keys to vault.json
   <img width="auto" width="500" src="./ReadMe.gif">
 </p>
 
+### Video Tutorial
+
+For a detailed walkthrough of how to use Smyth Runtime Local, check out our [tutorial video](https://youtu.be/RiNzFegoL-Y).
+
+<p align="center">
+  <a href="https://youtu.be/RiNzFegoL-Y">
+    <img width="500" src="https://img.youtube.com/vi/RiNzFegoL-Y/maxresdefault.jpg" alt="Smyth Runtime Local Tutorial">
+  </a>
+</p>
+
 ### CLI Arguments
 
 | Argument             | Description                               |

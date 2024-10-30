@@ -2,9 +2,9 @@
     "default": {
         "Echo": "",
         "OpenAI": "",
-        "AnthropicAI": ""
+        "AnthropicAI": "",
         "GoogleAI": "",
         "Groq": "",
-        "TogetherAI": "",
+        "TogetherAI": ""
     }
 }

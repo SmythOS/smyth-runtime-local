@@ -1,3 +1,4 @@
 vault.json
 /debug
 *.pem
+node_modules

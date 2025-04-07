@@ -16,10 +16,10 @@ Smyth Runtime Local is a local version of the Smyth Runtime. You can use the exe
 We release a Command Line Interface (CLI) version of our runtime.
 
 - SRE is free for personal & commercial use.
-- SRE is fully contained with no dependencies. 
+- SRE is fully contained with no dependencies.
 - SRE uses minimal resources (cpu, memory) and requires no GPU to run.
 
-SRE enables the running of AI agents on your hardware, from raspberri pi to on prem cloud. 
+SRE enables the running of AI agents on your hardware, from raspberri pi to on prem cloud.
 
 # Beta Limitations
 
@@ -46,6 +46,16 @@ cp vault.json.example vault.json          # add API keys to vault.json
   <img width="auto" width="500" src="./ReadMe.gif">
 </p>
 
+You can also pass multiple parameters to the endpoint.
+
+```
+./bin/smyth-runtime-linux \
+ --agent agents/llm.smyth \
+ --vault vault.json \
+ --post question="What is the capital of France?" user="John Doe" \
+ --endpoint ask
+```
+
 ### Video Tutorial
 
 For a detailed walkthrough of how to use Smyth Runtime Local, check out our [tutorial video](https://youtu.be/RiNzFegoL-Y).
@@ -58,18 +68,18 @@ For a detailed walkthrough of how to use Smyth Runtime Local, check out our [tut
 
 ### CLI Arguments
 
-| Argument             | Description                               |
-| -------------------- | ----------------------------------------- |
-| `--agent <file>`     | Path to `.smyth` agent file               |
-| `--vault <file>`     | Path to the vault file                    |
-| `--vault-key <file>` | Path to the pem file to decrypt `--vault` |
-| `--get [params...]`  | Make a GET call                           |
-| `--post [params...]` | Make a POST call                          |
-| `--endpoint <name>`  | Endpoint name                             |
-| `-v, --version`      | Display version information               |
-| `-d, --debug`        | Dump all args to the console              |
-| `--help, -h`         | Show help message                         |
-
+| Argument             | Description                                                                                               |
+| -------------------- | --------------------------------------------------------------------------------------------------------- |
+| `--agent <file>`     | Path to `.smyth` agent file                                                                               |
+| `--vault <file>`     | Path to the vault file                                                                                    |
+| `--vault-key <file>` | Path to the pem file to decrypt `--vault`                                                                 |
+| `--get [params...]`  | Make a GET call                                                                                           |
+| `--post [params...]` | Make a POST call                                                                                          |
+| `--endpoint <name>`  | Endpoint name                                                                                             |
+| `--chat`             | Starts a local chat app for the agent, **Note that this cannot be used with --endpoint, --get or --post** |
+| `-v, --version`      | Display version information                                                                               |
+| `-d, --debug`        | Dump all args to the console                                                                              |
+| `--help, -h`         | Show help message                                                                                         |
 
 ### Support
 
@@ -78,7 +88,6 @@ For a detailed walkthrough of how to use Smyth Runtime Local, check out our [tut
 - [Academy & Certification](https://academy.smythos.com/)
 - Email Support available for paid subscribers.
 - Priority Support available for enterprise subscribers.
-
 
 ### FAQ
 
@@ -159,14 +168,3 @@ Set up API-based communication and use the API call component for integration.
 **13. How do I export my agent from SmythOS?**
 
 Press Control + Shift + E in the agent builder
-
-
-
-
-
-
-
-
-
-
-
